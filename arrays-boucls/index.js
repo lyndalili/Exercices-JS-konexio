@@ -32,33 +32,33 @@
 
 
 
-//const sentence = "Hello Konexio !"
-//for (let i = sentence.length - 1; i >= 0; sentence[i--])
-//console.log(sentence[i])
+/*const sentence = "Hello Konexio !"
+for (let i = sentence.length - 1; i >= 0; sentence[i--])
+console.log(sentence[i])
 
 
-//for (var nombre = 1; nombre <= 100; nombre++) {
-// var message = "";
-//if (nombre % 3 === 0) {
+for (var nombre = 1; nombre <= 100; nombre++) {
+ var message = "";
+if (nombre % 3 === 0) {
 
-//  message += 'Fizz';
-// }
-//if (nombre % 5 === 0) {
+  message += 'Fizz';
+ }
+if (nombre % 5 === 0) {
 
-// message += 'Buzz';
-//}
-// if (message === "") {
+ message += 'Buzz';
+}
+ if (message === "") {
 
-//  message = nombre;
-//}
-//console.log(message);
-//}
-
-
+  message = nombre;
+}
+console.log(message);
+}*/
 
 
 
-let i = 1;
+
+
+/*let i = 1;
 
 while (i <= 100) {
     if ((i % 3 === 0) && (i % 5 === 0)) {
@@ -72,7 +72,7 @@ while (i <= 100) {
     }
     i++;
 }
-
+*/
 
 
 
