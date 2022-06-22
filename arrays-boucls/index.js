@@ -78,8 +78,8 @@ while (i <= 100) {
 
 
 
-/*
-let namCollegues = ["jad", "thomas", "danh", "julien", "clara", "florez", "arthur", "edaly", "rayan", "walid1", "walid2", "aurelien", ".."]
+
+/*let namCollegues = ["jad", "thomas", "danh", "julien", "clara", "florez", "arthur", "edaly", "rayan", "walid1", "walid2", "aurelien", ".."]
 let CollegusAll = Math.floor(Math.random() * namCollegues.length)
 let collegusAleatoires = namCollegues[CollegusAll]
     //console.log(collegusAleatoires)
@@ -88,7 +88,15 @@ for (let i = 0; i < CollegusAll; i++) {
     console.log(collegusAleatoires)
 }*/
 
+
+
 let arrays = []
 let max = 100
 let min = 0
 let namberAleatoires = Math.floor(Math.random() * (max)) + min
+let addNamberArray = arrays.push(namberAleatoires)
+
+
+for (let i = 0; i < 20; i++) {
+    console.log(arrays)
+}
