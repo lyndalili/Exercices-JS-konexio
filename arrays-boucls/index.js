@@ -93,10 +93,11 @@ for (let i = 0; i < CollegusAll; i++) {
 let arrays = []
 let max = 100
 let min = 0
-let namberAleatoires = Math.floor(Math.random() * (max)) + min
-let addNamberArray = arrays.push(namberAleatoires)
+
 
 
 for (let i = 0; i < 20; i++) {
+    var namberAleatoires = Math.floor(Math.random() * (max)) + min
+    var addNamberArray = arrays.push(namberAleatoires)
     console.log(arrays)
 }
