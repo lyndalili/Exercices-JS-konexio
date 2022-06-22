@@ -34,26 +34,27 @@
 
 /*const sentence = "Hello Konexio !"
 for (let i = sentence.length - 1; i >= 0; sentence[i--])
-console.log(sentence[i])
+console.log(sentence[i]) */
 
 
-for (var nombre = 1; nombre <= 100; nombre++) {
- var message = "";
-if (nombre % 3 === 0) {
 
-  message += 'Fizz';
- }
-if (nombre % 5 === 0) {
+/*
+for (let nombre = 1; nombre <= 100; nombre++) {
 
- message += 'Buzz';
+    if (nombre % 3 === 0) {
+
+        console.log("Fizz");
+    }
+    if (nombre % 5 === 0) {
+
+        console.log("Buzz");
+    }
+    if ((nombre % 3 === 0) && (nombre % 5 === 0)) {
+        console.log("FizzBuzz");
+    }
+    console.log(nombre);
 }
- if (message === "") {
-
-  message = nombre;
-}
-console.log(message);
-}*/
-
+*/
 
 
 
