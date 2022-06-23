@@ -99,3 +99,22 @@ const conversionSeconde = (time) => {
 }
 
 conversionSeconde(3700)*/
+
+
+
+
+
+/// a revoir 
+const generatePassword = (num) => {
+    num = 8
+    characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    password = ""
+    for (let i = 0; i < characters.num; i++) {
+        password += characters.charAt(Math.floor(Math.random() * characters.num))
+
+    }
+
+    return password
+
+}
+generatePassword()
