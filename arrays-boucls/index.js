@@ -3,7 +3,7 @@
 
 //const ingredients = ["eggs", "milk", "butter"]
 //console.log(ingredients[1])
-//console.log(ingredients[2])
+//console.log(ingredients.indexOf ("butter"))
 
 
 //const objects = ["pen", "book", "lamp"]
@@ -20,41 +20,51 @@
 
 //const numbers = [4, 10, 8, 12, 6]
 //numbers.reverse()
-//console.log(numbers)
+//console.table(numbers)
 
 
-//let totale = 0
+//let total = 0
 //const limit = 10
-//for (let i = 0; i < limit; i++) {
-//console.log(i)
+//for (let i = 0; i <= limit; i++) {
+//total=total +i
 
 //}
-
-
-
-/*const sentence = "Hello Konexio !"
-for (let i = sentence.length - 1; i >= 0; sentence[i--])
-console.log(sentence[i]) */
+//console.log(total)
 
 
 
 /*
-for (let nombre = 1; nombre <= 100; nombre++) {
+const sentence = "Hello Konexio !"
+let sentenceReverse = ""
 
-    if (nombre % 3 === 0) {
+for (let i = sentence.length - 1; i >= 0; sentence[i--]) {
+    sentenceReverse = sentenceReverse + sentence.charAt(i)
+}
+console.log(sentenceReverse)
 
-        console.log("Fizz")
-    }
-    if (nombre % 5 === 0) {
+*/
 
-        console.log("Buzz")
-    }
+
+
+
+/*for (let nombre = 1; nombre <= 100; nombre++) {
     if ((nombre % 3 === 0) && (nombre % 5 === 0)) {
         console.log("FizzBuzz");
+
+    } else if (nombre % 3 === 0) {
+
+        console.log("Fizz")
+    } else if (nombre % 5 === 0) {
+
+        console.log("Buzz")
+    } else if (nombre % 7 !== 0) {
+
+        console.log(nombre)
+
     }
-    console.log(nombre)
-}
-*/
+
+}*/
+
 
 
 
@@ -76,28 +86,67 @@ while (i <= 100) {
 */
 
 
+//08 coorection groupe
+
+/*let total = 0
+const limit = 10
+i = 0
+while (i <= limit) {
+    total = total + i
+    i++
+
+}
+console.log("totale at the end: ", total)*/
 
 
 
-/*let namCollegues = ["jad", "thomas", "danh", "julien", "clara", "florez", "arthur", "edaly", "rayan", "walid1", "walid2", "aurelien", ".."]
-let CollegusAll = Math.floor(Math.random() * namCollegues.length)
-let collegusAleatoires = namCollegues[CollegusAll]
-    //console.log(collegusAleatoires)
-
-for (let i = 0; i < CollegusAll; i++) {
-    console.log(collegusAleatoires)
-}*/
-
-
-
-let arrays = []
-let max = 100
+/*
+let namCollegues = ["jad", "thomas", "danh", "julien", "clara", "florez", "arthur", "edaly", "rayan", "walid1", "walid2", "aurelien", ]
 let min = 0
+let CollegusAll = Math.floor((Math.random() * namCollegues.length) + min)
+console.log(namCollegues[CollegusAll])
+*/
 
+
+
+
+let arraysNumbers = []
 
 
 for (let i = 0; i < 20; i++) {
-    var namberAleatoires = Math.floor(Math.random() * (max)) + min
-    var addNamberArray = arrays.push(namberAleatoires)
-    console.log(arrays)
+    const max = 101
+    const min = 0
+    let namberAleatoires = Math.floor(Math.random() * max) + min
+    arraysNumbers.push(namberAleatoires)
+
+
+
 }
+console.log(arraysNumbers)
+
+
+//10 correction groupe 
+
+
+/*
+let numbers = []
+
+for (let i = 0; i < 20; i++) {
+    const min = 0
+    const max = 101
+    const randomNumber = Math.floor(Math.random() * max) + min
+
+    numbers.push(randomNumber)
+        // => numbers[i] = randomNumber
+}
+let maximum = numbers[0]
+
+for (let i = 1; i < numbers.length; i++) {
+    console.log(numbers[i])
+
+    if (numbers[i] > maximum) {
+        maximum = numbers[i]
+    }
+}
+
+console.log("maximum: ", maximum)*/
