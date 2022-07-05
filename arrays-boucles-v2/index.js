@@ -9,13 +9,14 @@ console.log(numbr_pair.join('-'))
 
 
 
-/*
-var number_impair = []
 
-for (var i = 190; i < 588; i++) {
-    number_impair[i] = i * 2 + 1
-}
-console.log(number_impair.join('-'))*/
+
+// var number_impair = []
+
+// for (var i = 190; i < 588; i++) {
+//     number_impair[i] = i * 2 + 1
+// }
+// console.log(number_impair.join('-'))
 
 
 
