@@ -1,50 +1,53 @@
 
-/*const promiseDisplay = Promise.resolve("Hello Word")
 
-promiseDisplay.then((value) => {
-    setTimeout(() => {
+// const promessDisplay = () => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             const displayString = "HEllo world"
 
-      console.log(value)
-    }, 2000)
+//             resolve(displayString)
+//         }, 2000)
+//     })
+// }
+// const waitForMyResults = async () => {
 
-})*/
+//     const result = await promessFunction()
+//     console.log(result);
+// }
+// waitForMyResults()
 
 
 
 
 
 
-
-const getDisplay = () => {
+// const getDisplay = () => {
   
-    return new Promise((resolve, reject) => {
+//     return new Promise((resolve, reject) => {
       
-      setTimeout(() => {
+//       setTimeout(() => {
        
-        const temperature = 2
+//         const temperature = 2
 
-        if (temperature >= 10) {
-          resolve("Il fait froid")
+//         if (temperature >= 10) {
+//           resolve("Il fait froid")
       
-        } else {
-          reject("Il fait chaud")
-        }
-      }, 4000)
+//         } else {
+//           reject("Il fait chaud")
+//         }
+//       }, 4000)
       
-    })
-  }
-  
-
-  const waitForResult = async () => {
+//     })
+//   }
+//   const waitForResult = async () => {
     
-      try {
-        const result = await getExamResult()
-          console.log("la promesse est resolue")
-        console.log(result)
-      } catch(error) {
-          console.log("la promesse est rejetée")
-        console.log(error)
-      }
-  }
-  waitForResult()
-  
+//       try {
+//         const result = await getExamResult()
+//           console.log("la promesse est resolue")
+//         console.log(result)
+//       } catch(error) {
+//           console.log("la promesse est rejetée")
+//         console.log(error)
+//       }
+//   }
+//   waitForResult()
